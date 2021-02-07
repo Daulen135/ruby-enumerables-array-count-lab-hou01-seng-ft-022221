@@ -9,7 +9,7 @@ def count_empty_strings(array)
   
   array.count do |element|
     
-    element.class==String
+    element.class==String or 
     
   end
   element.length<1 
